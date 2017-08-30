@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: nice1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP351E.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/nice1.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\MSDev98\MyProjects\nice5\nice1\nice1.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP351E.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP351F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/nice1.pdb" /debug /machine:I386 /out:"Debug/nice1.exe" /pdbtype:sept 
+.\Debug\nice1.obj
+.\Debug\StdAfx.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP351F.tmp"
+<h3>Output Window</h3>
+Compiling...
+nice1.cpp
+F:\MSDev98\MyProjects\nice5\nice1\nice1.cpp(12) : error C2143: syntax error : missing ';' before 'if'
+F:\MSDev98\MyProjects\nice5\nice1\nice1.cpp(14) : error C2065: 'yes' : undeclared identifier
+F:\MSDev98\MyProjects\nice5\nice1\nice1.cpp(16) : error C2143: syntax error : missing ';' before 'else'
+F:\MSDev98\MyProjects\nice5\nice1\nice1.cpp(17) : error C2143: syntax error : missing ';' before '{'
+F:\MSDev98\MyProjects\nice5\nice1\nice1.cpp(17) : error C2447: missing function header (old-style formal list?)
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+nice1.exe - 5 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Demo03 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPAA2D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Demo03.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"F:\MSDev98\MyProjects\C++\模板\Demo03\Demo03.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPAA2D.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPAA2E.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Demo03.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"F:\MSDev98\MyProjects\C++\模板\Demo03\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPAA2E.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPAA3E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Demo03.pdb" /debug /machine:I386 /out:"Debug/Demo03.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\Demo03.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPAA3E.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Demo03.cpp
+F:\MSDev98\MyProjects\C++\模板\Demo03\Demo03.cpp(13) : error C2580: redefinition of class name 'a<`template-parameter257'>'
+        F:\MSDev98\MyProjects\C++\模板\Demo03\Demo03.cpp(13) : see declaration of 'a<`template-parameter257'>'
+        F:\MSDev98\MyProjects\C++\模板\Demo03\Demo03.cpp(26) : see reference to class template instantiation 'a<T>' being compiled
+F:\MSDev98\MyProjects\C++\模板\Demo03\Demo03.cpp(18) : warning C4183: 'A': member function definition looks like a ctor, but name does not match enclosing class
+        F:\MSDev98\MyProjects\C++\模板\Demo03\Demo03.cpp(26) : see reference to class template instantiation 'a<T>' being compiled
+F:\MSDev98\MyProjects\C++\模板\Demo03\Demo03.cpp(31) : error C2143: syntax error : missing ';' before '<'
+F:\MSDev98\MyProjects\C++\模板\Demo03\Demo03.cpp(31) : error C2182: 'A' : illegal use of type 'void'
+F:\MSDev98\MyProjects\C++\模板\Demo03\Demo03.cpp(31) : error C2059: syntax error : ';'
+F:\MSDev98\MyProjects\C++\模板\Demo03\Demo03.cpp(31) : error C2143: syntax error : missing ';' before '<'
+F:\MSDev98\MyProjects\C++\模板\Demo03\Demo03.cpp(31) : error C2039: '++' : is not a member of '`global namespace''
+F:\MSDev98\MyProjects\C++\模板\Demo03\Demo03.cpp(37) : error C2143: syntax error : missing ';' before '{'
+F:\MSDev98\MyProjects\C++\模板\Demo03\Demo03.cpp(37) : error C2447: missing function header (old-style formal list?)
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Demo03.exe - 8 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
